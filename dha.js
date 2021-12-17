@@ -192,6 +192,8 @@ const getPremiumExpired = (sender) => {
 		    })
 		    return array
 		}
+		
+		
 
 //Limit1
 const limitAdd = (sender) => {
@@ -863,6 +865,8 @@ const createSerial = (size) => {
             
 
             switch(command){
+            	
+            
            
  case 'donasi':
                txtt =`Hai Kak.....\n*${pushname}*\nMAU DONASI PILIH SALAH SATU`
@@ -924,6 +928,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │◦➛TOTAL HIT : *${totalhit} Hit*
 │◦➛HIT TODAY : *${hit_today.length} Hit*
 │◦➛PREIFIX : *『${prefix}』*
+│◦➛🗓️ISLAM : *${dateIslamic}*
 │◦➛BATERAI : *${baterai}%*
 └❏ - Katashi Bot
 
@@ -1469,6 +1474,20 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
               totalChat = await dha.chats.all()
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
+              
+              const d = new Date(new Date + 3600000)
+              
+              const locale = 'id'
+              
+               dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
+      
+            day: 'numeric',
+      
+            month: 'long',
+      
+            year: 'numeric'
+    
+            }).format(d)
 
         
         
@@ -1485,6 +1504,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │◦➛RAM USAGE : *${ram2}*
 │◦➛PLATFORM : *${os.platform()}*
 │◦➛HOSTNAME : *${os.hostname()}*
+│◦➛🗓️ISLAM : *${dateIslamic}*
 │◦➛UPTIME : *${runtime(process.uptime())}*
 │◦➛SPEED : *${latensie.toFixed(4)} _Second_*
 │◦➛CHAT : *${totalChat.length}*
