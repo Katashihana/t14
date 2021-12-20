@@ -7323,7 +7323,7 @@ const btnbc = {
     buttons: buttons,
     headerType: 1
 }
-await dha.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol})
+await dha.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: mek})
 						}
 						reply(`Sukses mengirim Broadcast:\n${body.slice(4)}`)
 					}
