@@ -1458,12 +1458,12 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         get_result = await fetchJson(`https://vaksincovid19-api.vercel.app/api/vaksin`)
                     Total = `Total Sasaran : ${get_result.totalsasaran}`
 
-        kopid2 = await fetchJson(`https://api.dapuhy.ga/api/others/corona?negara=indonesia&apikey=Pkjf7IBi2md7UAK`, {method: 'get'})
-        kopid3 = kopid2
-        id2 = `Lokasi: *INDONESIA*`
-        Kasus = `Positif: *${kopid3.kasus}*`
-        sembuh2 = `Sembuh: *${kopid3.sembuh}*`
-        meninggal2 = `Meninggal: *${kopid3.meninggal}*`
+        kopid2 = await fetchJson(`https://api-yogipw.herokuapp.com/api/info/covidworld`, {method: 'get'})
+        kopid3 = kopid2.result
+        id2 = `Lokasi: *GLOBAL*`
+        Kasus = `Positif: *${kopid3.totalCases}*`
+        sembuh2 = `Sembuh: *${kopid3.recovered}*`
+        meninggal2 = `Meninggal: *${kopid3.deaths}*`
         
         groups = dha.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = dha.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -7287,10 +7287,101 @@ penggunaan : ${prefix + command } wa 🗿`)
               break
 }
 break
+case 'bc2':
+					dha.updatePresence(from, Presence.composing)
+					if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+					if (args.length < 1) return reply('Teksnya?')
+					anu = await dha.chats.all()
+					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
+						const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+						buff = await dha.downloadMediaMessage(encmedia)
+						for (let _ of anu) {
+							dha.sendMessage(_.jid, buff, image, { viewOnce:true, caption: `${body.slice(4)}`})
+						}
+						reply(`Sukses mengirim Broadcast ${body.slice(4)}`)
+						} else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
+						const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+						buff = await dha.downloadMediaMessage(encmedia)
+						for (let _ of anu) {
+							dha.sendMessage(_.jid, buff, video, { viewOnce:true, caption: `${body.slice(4)}`})
+						}
+						reply(`Sukses mengirim Broadcast ${body.slice(4)}`)
+						} else if (isMedia && !mek.message.videoMessage || isQuotedVideo) {
+						const encmedia = isQuotedVideo ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
+						buff = await dha.downloadMediaMessage(encmedia)
+						for (let _ of anu) {
+							dha.sendMessage(_.jid, buff, video, { mimetype: Mimetype.gif, quoted: finv, contextInfo: { forwardingScore: 508, isForwarded: true}, caption: `${body.slice(4)}` })
+						}
+						reply(`Sukses mengirim Broadcast ${body.slice(4)}`)
+					} else {
+						for (let _ of anu) {
+							//sendMess(_.jid, `${body.slice(4)}`)
+buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `owner`, buttonText: {displayText: 'OWNER'}, type: 1}]
+const btnbc = {
+    contentText: `${body.slice(4)}`,
+    footerText: '*_BROADCAST_*',
+    buttons: buttons,
+    headerType: 1
+}
+await dha.sendMessage(_.jid, btnbc, MessageType.buttonsMessage, {quoted: ftrol})
+						}
+						reply(`Sukses mengirim Broadcast:\n${body.slice(4)}`)
+					}
+					break
+
+case 'setprofile':
+				case 'setpp':
+				dha.updatePresence(from, Presence.composing)
+				if (!isQuotedImage) return reply('Reply imagenya!')
+					if (!isOwner && !mek.key.fromMe) return sticOwner(from)
+					enmediau = JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo
+					mediau = await dha.downloadAndSaveMediaMessage(enmediau)
+					await dha.updateProfilePicture(botNumber, mediau)
+					reply('Sukses')
+					break
+case 'ps':
+case 'Ps':
+reply(mess.wait)
+					        if (!isGroup) return reply(mess.only.group);
+if (!isPremium) return reply(`Only Prem`)
+reply(mess.wait)
+					        if (!isGroup) return reply(mess.only.group);
+if (args.length == 0) return reply(`Example: ${prefix + command} Blowjob`)
+                    query = args.join(" ")
+pepex = await fetchJson(`https://kocakz.herokuapp.com/api/media/pornhub/search?query=${query}`)
+reply(mess.wait)
+pepex = pepex.res.results
+ini_txt = ""
+for (var x of pepex) {
+ini_txt += `Title : ${x.title}\n`
+ini_txt += `Views : ${x.views}\n`
+ini_txt += `Link : ${x.link}\n\n\n`
+}
+anu = `${ini_txt}\n\n  *DOWNLOAD*
+ ${prefix}xvideo [link xvid] = Video`
+dha.sendMessage(from, anu, text, {quoted: mek})
+break
+case 'foto':
+case 'fotokeren':
+if (args.length == 0) return reply(`Example: ${prefix + command} Blowjob`)
+                    query = args.join(" ")
+reply(mess.wait)
+					        if (!isGroup) return reply(mess.only.group);
+x = await getBuffer(`https://tyz-api.herokuapp.com/search/alphacoders?query=${query}`)
+dha.sendMessage(from, x, image, {quoted: mek})
+break
 
 default:
 if(budy.includes('Putra')){
 cpref = ` *Kenapa manggil orang ganteng?*`
+reply(cpref)
+}
+if(budy.includes('pipiw')){
+cpref = ` *Kenapa manggil orang cantik?*`
+reply(cpref)
+}
+if(budy.includes('Pipiw')){
+cpref = ` *Kenapa manggil orang cantik?*`
 reply(cpref)
 }
  if(budy.includes('putra')){
