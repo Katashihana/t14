@@ -922,7 +922,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya Katashi-Botz,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
 ╭─❒ 「 Bot Info 」 ❒
 │◦➛NAMA : *Katashi-Botz*
-│◦➛API : @6289626029135
+│◦➛API : @6281932664252
 │◦➛OWNER : *©Katashi*
 │◦➛AKTIF : *${runtime(process.uptime())}*
 │◦➛TOTAL HIT : *${totalhit} Hit*
@@ -1260,7 +1260,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │◦➛* ${prefix}image <query>
 │◦➛* ${prefix}anime <random>
 │◦➛* ${prefix}pinterest <query>
-│◦➛* ${prefix}komiku <query>
+│◦➛* ${prefix}ko${qq} <query>
 │◦➛* ${prefix}lirik <query>
 │◦➛* ${prefix}chara <query>
 │◦➛* ${prefix}playstore <query>
@@ -1340,7 +1340,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │◦➛* ${prefix}dafontsearch <query>
 │◦➛* ${prefix}jarak <query>
 │◦➛* ${prefix}nhentaisearch <query>
-│◦➛* ${prefix}komiku <query>
+│◦➛* ${prefix}ko${qq} <query>
 │◦➛* ${prefix}doujin* _text_
 │◦➛* ${prefix}caribioskop* _lokaskinya_
 │◦➛* ${prefix}appstore* _Apknya_
@@ -1353,6 +1353,10 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │◦➛* ${prefix}cekwatak*
 │◦➛* ${prefix}cekmati* _nama_
 │◦➛* ${prefix}wangy* _nama_
+│◦➛* ${prefix}shrek* _nama_
+│◦➛* ${prefix}nenen* _nama_
+│◦➛* ${prefix}wangy2* _nama_
+│◦➛* ${prefix}simp* _nama_
 │◦➛* ${prefix}citacita*
 │◦➛* ${prefix}toxic*
 │◦➛* ${prefix}truth*
@@ -1443,7 +1447,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN Katashi WA 6289626029135\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN Katashi WA 6281932664252\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1494,7 +1498,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         menu =`Hai Kak.....\n*${pushname}*\n\`\`\`Saya Katashi-Botz,SENANG BISA BERTEMU DENGANMU HARI INI\`\`\`
 ╭─❒ 「 Bot Info 」 ❒
 │◦➛NAMA : *Katashi-Botz*
-│◦➛API : @6289626029135
+│◦➛API : @6281932664252
 │◦➛OWNER : *©Katashi*
 │◦➛AKTIF : *${runtime(process.uptime())}*
 │◦➛TOTAL HIT : *${totalhit} Hit*
@@ -1541,7 +1545,7 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 
                buttonsMessage = {
                contentText: `${menu}`,
-               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN Katashi WA 6289626029135\`\`\`', imageMessage: imageMsg,
+               footerText: '\`\`\`MAU BELI SC INI HUBUNGIN Katashi WA 6281932664252\`\`\`', imageMessage: imageMsg,
                buttons: buttons,
                headerType: 4
 }
@@ -1663,7 +1667,7 @@ case 'bayar':
 gopeynya = 'httpsl://telegra.ph/file/58f6d9179e497062a84b0.jpg'
 teksnya = ` *「PAYMENT」*
 • GOPAY : scan diatas
-• DANA : 089626029135
+• DANA : 081932664252
 • OVO : scan diatas
 • QRISS DI ATAS 
 ━━━━━━━━━━━━━━━━━━━━`
@@ -2583,7 +2587,7 @@ break
               reply(`Jangan Lupa Subscribe YT Owner:\n https://youtube.com/channel/UCrEMv0c1cuploq5GruMuwvw`)
               break
        case 'masukandata':
-             reply(`*「BOT MELAYANI」*\n\n━━━━━━━━━━━━━━━━━━━━\n\nMASUKKANA DATA BERIKUT\n*•NAMA GAME:*\n*•ID GAME:*\n*•USER NAME:*\n━━━━━━━━━━━━━━━━━━━━\n*NOTE:*\n*1.* _JANGAN LUPA BUKTI TRXNYA_\n*2.* _OTOMATIS PESANAN_\n_LANSUNG DI PROSES_\n*3.* _PESANAN ANDA DI PROSES_\n_OLEH_\n\n   *©Katashi*\n\n_JIKA PESANAN ANDA LOW_\n_PROSES MOHON BERSABAR_\nwa.me/6289626029135`)
+             reply(`*「BOT MELAYANI」*\n\n━━━━━━━━━━━━━━━━━━━━\n\nMASUKKANA DATA BERIKUT\n*•NAMA GAME:*\n*•ID GAME:*\n*•USER NAME:*\n━━━━━━━━━━━━━━━━━━━━\n*NOTE:*\n*1.* _JANGAN LUPA BUKTI TRXNYA_\n*2.* _OTOMATIS PESANAN_\n_LANSUNG DI PROSES_\n*3.* _PESANAN ANDA DI PROSES_\n_OLEH_\n\n   *©Katashi*\n\n_JIKA PESANAN ANDA LOW_\n_PROSES MOHON BERSABAR_\nwa.me/6281932664252`)
               break
       case 'ping':
       case 'speed':
@@ -3398,7 +3402,7 @@ reply(mess.wait)
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
               teks = args.join(' ')
               reply('Terima Kasih Telah Melaporkan Bug Pada Owner, Jika Itu Sekedar Iseng Maka Akan Di Ban Oleh Bot!')
-              dha.sendMessage('6289626029135@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              dha.sendMessage('6281932664252@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
        case 'readall':
@@ -3508,15 +3512,15 @@ reply(mess.wait)
               break                            
 //------------------< Menunya Bang:v >-------------------
       case 'dana':
-             reply(`DANA : 089626029135\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
+             reply(`DANA : 081932664252\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
              
               break
            case 'gopay':
-             reply(`GOPAY : 089626029135\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
+             reply(`GOPAY : 081932664252\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
              
               break  
          case 'pulsa':
-             reply(`PULSA : 089626029135\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
+             reply(`PULSA : 081932664252\n\n SAYA CUMAN BISA BILANG TERIMAKASIH ATAS KEMURAHAN HATI TUAN TELAH MEMBERIKAN KAMI BANTUAN.SEMOGA ALLAH MEMBALAS APA YG TUAN BERIKAN KE PADA SAYA`)
              
               break              
       case 'infoig':
@@ -3991,16 +3995,16 @@ reply(mess.wait)
 if (!isPremium) return reply(`Only Prem`)
                     if (args.length == 0) return reply(`Example: ${prefix + command} 8303030303030`)
                     nomor = args[0]
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
-                    await axios.get(`https://hujanapi.herokuapp.com/api/spamcallv1?no=${nomor}&apikey=trial2k21`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
+                    await axios.get(`https://id.jagreward.com/member/verify-mobile/${nomor}`)
                     reply("Success")
                     break        
 case 'palingmurah': // Update By KATASHI
@@ -4156,6 +4160,30 @@ case 'wangy':
               if (!q) return
               qq = q.toUpperCase()
               awikwok = `${qq} ${qq} ${qq}    WANGY WANGY WANGY WANGY HU HA HU HA HU HA, aaaah baunya rambut ${qq} wangyy aku mau nyiumin aroma wangynya ${qq} AAAAAAAAH ~ Rambutnya.... aaah rambutnya juga pengen aku elus-elus ~~ AAAAAH ${qq} keluar pertama kali di anime juga manis    banget AAAAAAAAH ${qq} AAAAA LUCCUUUUUUUUUUUUUUU............ ${qq} AAAAAAAAAAAAAAAAAAAAGH   apa ? ${qq} itu gak nyata ? Cuma HALU katamu ? nggak, ngak ngak ngak ngak NGAAAAAAAAK GUA GAK PERCAYA ITU DIA NYATA NGAAAAAAAAAAAAAAAAAK PEDULI BANGSAAAAAT !! GUA GAK PEDULI SAMA KENYATAAN POKOKNYA GAK PEDULI.    ${qq} gw ... ${qq} di laptop ngeliatin gw, ${qq} .. kamu percaya sama aku ? aaaaaaaaaaah syukur ${q} aku gak mau merelakan ${qq} aaaaaah    YEAAAAAAAAAAAH GUA MASIH PUNYA ${qq} SENDIRI PUN NGGAK SAMA AAAAAAAAAAAAAAH`
+              reply(awikwok)
+              break
+case 'sherk':
+              if (!q) return
+              qq = q.toUpperCase()
+              awikwok = `Usiaku 22 tahun. Aku sangat mencintai ${qq}, aku punya semua Figurine dan wallpapernya. Aku berdoa setiap malam dan berterima kasih atas segala hal yang telah ia berikan kepadaku. \"${qq} adalah cinta\" aku bilang \"${qq} adalah Tujuan Hidupku\". Temanku datang ke kamarku dan berkata \"HALU LU ANJING !!\". Aku tau dia cemburu atas kesetiaanku kepada ${qq}. Lalu kukatakan padanya \"BACOT NJING !!\". Temanku menampol kepalaku dan menyuruhku untuk tidur. Kepalaku sakit dan aku menangis. Aku rebahan di kasur yang dingin, lalu ada sesuatu yang hangat menyentuhku. Ternyata ${qq} datang ke dalam kamarku, Aku begitu senang bertemu ${qq}. Dia membisikan ke telingaku, \"Kamu adalah impianku\" Dengan tangannya dia meraih diriku. Aku melebarkan pantatku keatas demi ${qq}. Dia menusukan sesuatu kedalam Anggusku. begitu sakit, tapi kulakukan itu demi ${qq}. Aku ingin memberikan kepuasan kepada ${qq}. Dia meraum bagaikan singa, disaat dia melepaskan cintanya kedalam Anggusku. Temanku masuk kekamarku dan berkata \"....... Anjing\". ${qq} melihat temanku dan berkata \" Semua sudah berakhir\" Dengan menggunakan kemampuannya Stellar Restoration ${qq} pergi meninggalkan kamarku. \"${qq} itu cinta\" \"${qq} itu kehidupan\".`
+              reply(awikwok)
+              break
+case 'simp':
+              if (!q) return
+              qq = q.toUpperCase()
+              awikwok = `Buruan, panggil gue SIMP, ato BAPERAN. ini MURNI PERASAAN GUE. Gue pengen genjot bareng ${qq}. Ini seriusan, suaranya yang imut, mukanya yang cantik, apalagi badannya yang aduhai ningkatin gairah gue buat genjot ${qq}. Setiap lapisan kulitnya pengen gue jilat. Saat gue mau crot, gue bakal moncrot sepenuh hati, bisa di perut, muka, badan, teteknya, sampai lubang burit pun bakal gue crot sampai puncak klimaks. Gue bakal meluk dia abis gue moncrot, lalu nanya gimana kabarnya, ngrasain enggas bareng saat telanjang. Dia bakal bilang kalau genjotan gue mantep dan nyatain perasaannya ke gue, bilang kalo dia cinta ama gue. Gue bakal bilang balik seberapa gue cinta ama dia, dan dia bakal kecup gue di pipi. Terus kita ganti pakaian dan ngabisin waktu nonton film, sambil pelukan ama makan hidangan favorit. Gue mau ${qq} jadi pacar, pasangan, istri, dan idup gue. Gue cinta dia dan ingin dia jadi bagian tubuh gue. Lo kira ini copypasta? Kagak cok. Gue ngetik tiap kata nyatain prasaan gue. Setiap kali elo nanya dia siapa, denger ini baik-baik : DIA ISTRI GUE. Gue sayang ${qq}, dan INI MURNI PIKIRAN DAN PERASAAN GUE.`
+              reply(awikwok)
+              break
+case 'nenen':
+              if (!q) return
+              qq = q.toUpperCase()
+              awikwok = `NENEN NENEN KEPENGEN NENEN SAMA ${qq}. TETEK GEDE NAN KENCANG MILIK ${qq} MEMBUATKU KEPENGEN NENEN. DIBALUT PAKAIAN KETAT YANG ADUHAI CROOOOTOTOTOTOTOT ANJING SANGE GUA BANGSAT. ${qq}, PLIS DENGERIN BAIK BAIK. TOLONG BUKA BAJU SEBENTAR SAJA PLISSS TOLOOONG BANGET, BIARKAN MULUT KERINGKU BISA MENGECAP NENEN ${qq}. BIARKAN AKU MENGENYOT NENENMU ${qq}. AKU RELA NGASIH SESEMBAHAN APA AJA BERAPAPUN ITU DUIT YANG AKU BAKAR KHUSUS TERKHUSUS BUATMU. TAPI TOLOOOONG BANGET BUKA BAJUMU AKU MAU NENEN. NENEN NENEEEEN NENEN ${qq} WANGIIII`
+              reply(awikwok)
+              break
+case 'wangy2':
+              if (!q) return
+              qq = q.toUpperCase()
+              awikwok = `GW BENAR-BENAR PENGEN JILAT KAKI *${qq}*,GW PENGEN BANGET MENJILAT SETIAP BAGIAN KAKINYA SAMPAI AIR LIUR GW BERCUCURAN KAYAK AIR KERINGAT LALU NGENTOD DENGAN NYA SETIAP HARI SAMPAI TUBUH KITA MATI RASA, YA TUHAN GW INGIN MEMBUAT ANAK ANAK DENGAN *${qq}* SEBANYAK SATU TIM SEPAK BOLA DAN MEMBUAT SATU TIM SEPAK BOLA LAINYA UNTUK MELAWAN ANAK-ANAK TIM SEPAK BOLA PERTAMA GW  YANG GW BUAT SAMA *${qq}* GW PENGEN MASUK KE SETIAP LUBANG TUBUHNYA, MAU ITU LUBANG HIDUNG LUBANG MATA MAUPUN LUBANG BOOL, KEMUDIAN GW AKAN MANUSIA YANG TIDAK BISA HIDUP KALO GW GA ENTOD SETIAP HARI.`
               reply(awikwok)
               break
                 case 'bts':
