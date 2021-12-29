@@ -928,7 +928,6 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │◦➛TOTAL HIT : *${totalhit} Hit*
 │◦➛HIT TODAY : *${hit_today.length} Hit*
 │◦➛PREIFIX : *『${prefix}』*
-│◦➛🗓️ISLAM : *${dateIslamic}*
 │◦➛BATERAI : *${baterai}%*
 └❏ - Katashi Bot
 
@@ -1461,13 +1460,6 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
         
         get_result = await fetchJson(`https://vaksincovid19-api.vercel.app/api/vaksin`)
                     Total = `Total Sasaran : ${get_result.totalsasaran}`
-
-        kopid2 = await fetchJson(`https://api-yogipw.herokuapp.com/api/info/covidworld`, {method: 'get'})
-        kopid3 = kopid2.result
-        id2 = `Lokasi: *GLOBAL*`
-        Kasus = `Positif: *${kopid3.totalCases}*`
-        sembuh2 = `Sembuh: *${kopid3.recovered}*`
-        meninggal2 = `Meninggal: *${kopid3.deaths}*`
         
         groups = dha.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = dha.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -1531,12 +1523,6 @@ dha.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
 │◦➛${Total}
 └❏ - Katashi Bot
 
-┌❏ INFO CORONA 
-│◦➛${id2}
-│◦➛${Kasus},
-│◦➛${sembuh2}
-│◦➛${meninggal2}
-└❏ - Katashi Bot
 
 ©𝑪𝒓𝒆𝒂𝒕𝒐𝒓 ©Katashi`
                buttons = [{buttonId: `${prefix}menu2`,buttonText:{displayText: '𝗔𝗟𝗟 𝗠𝗘𝗡𝗨'},type:1},{buttonId: `${prefix}grupbot`,buttonText:{displayText: '𝗥𝗨𝗟𝗘𝗦'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1}]
